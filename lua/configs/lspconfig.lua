@@ -6,7 +6,8 @@ local servers = {
   "ts_ls",
   "pyright",
   "dockerls",
-  "docker_compose_language_service"
+  "docker_compose_language_service",
+  "emmet_language_server"
 }
 vim.lsp.enable(servers)
 
